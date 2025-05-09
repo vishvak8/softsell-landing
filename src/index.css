@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply base layout and theme-aware styles */
+body {
+  @apply min-h-screen font-sans transition-colors duration-300 bg-white text-black dark:bg-black dark:text-white;
+}
+
+/* Button styles for both themes */
+button {
+  @apply px-4 py-2 rounded-md border border-gray-300 bg-white text-black dark:bg-black dark:text-white dark:border-white transition;
+}
+
+/* Input fields: light/dark mode support */
+input,
+select,
+textarea {
+  @apply w-full px-4 py-2 border border-gray-300 rounded text-black bg-white dark:bg-gray-800 dark:border-gray-600 dark:text-white transition;
+}
+
+/* Error messages */
+p.text-red-500 {
+  @apply text-sm mt-1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
