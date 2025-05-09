@@ -6,7 +6,7 @@
 
 ## 📸 Live Demo
 
-🔗 [View Live Site](https://softsell.vercel.app)
+🔗 [https://softsell-landing-chi.vercel.app](https://softsell-landing-chi.vercel.app)
 
 ---
 
@@ -65,13 +65,6 @@ cd softsell-landing
 npm install
 npm run dev
 ```
-
----
-
-## 🌍 Live Demo
-
-Hosted on **Vercel**  
-🔗 [https://softsell.vercel.app](https://softsell.vercel.app)
 
 ---
 
